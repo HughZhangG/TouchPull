@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.View;
  
 /**
- * Created by baibai on 2017/7/7.
+ * 
  * N阶贝塞尔曲线
  */
  
