@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gu.cheng.touchpull.MainActivity">
+
+    <com.gu.cheng.touchpull.widget.TouchPullView
+        android:id="@+id/id_touch_pull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d8d8d8"
+
+        app:pContentDrawable="@drawable/shape_circle"
+        app:pContentDrawableMargin="2dp"
+        app:pDragHeight="100dp"
+        app:pColor="@color/colorAccent"
+        app:pRadius="20dp"
+        app:pTangentAngle="110"
+        app:pTargetGravityHeight="4dp"
+        app:pTargetWidth="120dp"
+        android:visibility="visible"
+        />
+</RelativeLayout>
